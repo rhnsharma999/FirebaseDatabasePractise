@@ -14,7 +14,7 @@
 		DF2D2B9D1EC491C100E388EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2D2B9C1EC491C100E388EB /* Assets.xcassets */; };
 		DF2D2BA01EC491C100E388EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2D2B9E1EC491C100E388EB /* LaunchScreen.storyboard */; };
 		DF2D2BA81EC4924E00E388EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF2D2BA71EC4924E00E388EB /* GoogleService-Info.plist */; };
-		DF2D2BAA1EC492D600E388EB /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D2BA91EC492D600E388EB /* DataViewController.swift */; };
+		DF2D2BAA1EC492D600E388EB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2D2BA91EC492D600E388EB /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		DF2D2B9F1EC491C100E388EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF2D2BA11EC491C100E388EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF2D2BA71EC4924E00E388EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
-		DF2D2BA91EC492D600E388EB /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		DF2D2BA91EC492D600E388EB /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			children = (
 				DF2D2B951EC491C100E388EB /* AppDelegate.swift */,
 				DF2D2B971EC491C100E388EB /* ViewController.swift */,
-				DF2D2BA91EC492D600E388EB /* DataViewController.swift */,
+				DF2D2BA91EC492D600E388EB /* DataModel.swift */,
 				DF2D2B991EC491C100E388EB /* Main.storyboard */,
 				DF2D2B9C1EC491C100E388EB /* Assets.xcassets */,
 				DF2D2B9E1EC491C100E388EB /* LaunchScreen.storyboard */,
@@ -220,7 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF2D2B981EC491C100E388EB /* ViewController.swift in Sources */,
-				DF2D2BAA1EC492D600E388EB /* DataViewController.swift in Sources */,
+				DF2D2BAA1EC492D600E388EB /* DataModel.swift in Sources */,
 				DF2D2B961EC491C100E388EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

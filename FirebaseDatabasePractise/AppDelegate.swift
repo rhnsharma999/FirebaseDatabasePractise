@@ -25,6 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var nav = UINavigationController(rootViewController: ViewController())
         window?.rootViewController = nav
         
+        FIRDatabase.database().persistenceEnabled = true
         
         return true
     }

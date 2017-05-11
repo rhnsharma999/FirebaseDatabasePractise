@@ -8,15 +8,8 @@
 
 import UIKit
 
-class DataViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    
-    
-
+struct Data {
+    var colorName:String?
+    var hexValue:String?
+    var key:String?
 }
